@@ -2,7 +2,7 @@
 
 int main() {
     Graph G;
-    file_to_graph("src/largest.txt", G);
+    file_to_graph("src/small.txt", G);
 
     int source = 0;
     vector<int> previous(G.size(), UNDEFINED);
